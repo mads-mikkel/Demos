@@ -14,6 +14,9 @@ namespace DataAccessTests
 
             var allOrders = orderRepo.GetAll();
             var allCustomers = customerRepo.GetAll();
+
+            DateTime d = new(1997, 04, 01);
+            var x = orderRepo.Get(o => o.OrderDate > d, q => q.OrderBy(o => o.OrderDate), $"{nameof(Employee)}s");
         }
     }
 }

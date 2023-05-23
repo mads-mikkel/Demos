@@ -17,5 +17,10 @@ namespace Entities
         public virtual Region Region { get; set; }
 
         public virtual ICollection<Employee> Employees { get; set; }
+
+        public override string ToString()
+        {
+            return TerritoryId;
+        }
     }
 }

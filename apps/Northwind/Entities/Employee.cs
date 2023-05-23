@@ -36,5 +36,10 @@ namespace Entities
         public virtual ICollection<Order> Orders { get; set; }
 
         public virtual ICollection<Territory> Territories { get; set; }
+
+        public override string ToString()
+        {
+            return $"{FirstName} {LastName} reports to {ReportsToNavigation?.FirstName} {ReportsToNavigation?.LastName}";
+        }
     }
 }
