@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ImplementDotNetInterfaces\OOP.ImplementDotNetInterfaces.csproj" />
+    <ProjectReference Include="..\..\ImplementDotNetInterfaces\ImplementDotNetInterfaces.csproj" />
   </ItemGroup>
 
 </Project>

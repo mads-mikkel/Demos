@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.ImplementDotNetInterfaces", "ImplementDotNetInterfaces\OOP.ImplementDotNetInterfaces.csproj", "{CB7B6478-35B6-49B2-AAE0-DEC66DB8C04F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementDotNetInterfaces", "ImplementDotNetInterfaces\ImplementDotNetInterfaces.csproj", "{CB7B6478-35B6-49B2-AAE0-DEC66DB8C04F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.OOP", "Tests\ImplementDotNetInterfacesTests\Tests.OOP.csproj", "{0CB092A0-8545-4EF3-AF4E-52AB1B059350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.OOP", "Tests\ImplementDotNetInterfacesTests\Tests.OOP.csproj", "{0CB092A0-8545-4EF3-AF4E-52AB1B059350}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6FA71AB9-A260-4C04-A465-F6FB2419FB11}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{2E59A631-E5A9-4B19-B1C4-3F11BFFDD92A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Polymorphism", "Polymorphism", "{2E59A631-E5A9-4B19-B1C4-3F11BFFDD92A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
